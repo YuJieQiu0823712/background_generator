@@ -1,3 +1,15 @@
+// import { without } from 'lodash';
+// console.log(without); not working because browser not recognize import
+
+var _ = require('lodash'); 
+console.log(_);
+// Why Use Browserify?
+// 1. Supports require() in the browser – Normally, require() works in Node.js, but not in the browser. Browserify makes it possible.
+// 2. Bundles dependencies – If your JavaScript files use modules, Browserify packages them into one file.
+// 3. Improves performance – By reducing multiple script requests into a single bundled file.
+var array = [1,2,3,4,5]
+console.log('answer', _.without(array, 3));
+
 var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
