@@ -8,7 +8,7 @@ In this practice, I install `npm`(globally) (to generate `package.json`), `node`
 2. Install node_modules
     `npm install`
 
-3. Remove the remote repository named origin from your Git configuration.
+3. Remove the remote repository named origin from your Git configuration
     `git remote remove origin`
 
 4. To see the demo
